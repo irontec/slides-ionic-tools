@@ -1,0 +1,35 @@
+<h3><a href="http://play.ionic.io/app/190d0c8abfc9">Modals</a></h3>
+
+<div class='span8 column'>
+    <div class="content">
+
+        <pre>
+            <code data-trim class="nohighlight">
+angular.module('testApp', ['ionic'])
+    .controller('MyController', MyController);
+
+function MyController($scope, $ionicModal) {
+    $ionicModal.fromTemplateUrl('my-modal.html', {
+        scope: $scope,
+        animation: 'slide-in-up'
+    }).then(function(modal) {
+        $scope.modal = modal;
+    });
+
+    $scope.openModal = function() {
+        $scope.modal.show();
+    };
+
+    $scope.closeModal = function() {
+        $scope.modal.hide();
+    };
+}
+            </code>
+        </pre>
+    </div>
+</div>
+<div class='span4 column'>
+    <p>
+        <img src="assets/modals.gif">
+    </p>
+</div>

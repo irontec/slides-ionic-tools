@@ -1,0 +1,38 @@
+[
+    "00-index.md",
+    "01-intro.md",
+    [
+        "02-css-00.md",
+        "02-css-01.md",
+        "02-css-02.html",
+        "02-css-03.html",
+        "02-css-04.html",
+        "02-css-05.html",
+        "02-css-06.html",
+        "02-css-07.html",
+        "02-css-08.html",
+        "02-css-09.html",
+        "02-css-10.html",
+        "02-css-11.html",
+        "02-css-12.html",
+        "02-css-13.html",
+        "02-css-14.html"
+    ], [
+        "03-javascript-00.md",
+        "03-javascript-01.md",
+        "03-javascript-02.html",
+        "03-javascript-03.html",
+        "03-javascript-04.html",
+        "03-javascript-05.html",
+        "03-javascript-06.md",
+        "03-javascript-07.html",
+        "03-javascript-08.html"
+    ], [
+        "04-cli-00.md",
+        "04-cli-01.md"
+
+    ], [
+        "05-icons-00.md",
+        "05-icons-01.md"
+    ]
+]
